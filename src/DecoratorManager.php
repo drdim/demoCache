@@ -77,7 +77,7 @@ class DecoratorManager extends DataProvider
             }
             return $result;
         } catch (Exception $e) {
-            $this->logger->critical('Error');
+            $this->logger->critical('Error test');
         }
 
         return [];
